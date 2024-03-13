@@ -25,7 +25,7 @@ function Navbar() {
           <ul className={l.item}>
             {val.map((item, index) => {
               return (
-                <li>
+                <li key={index}>
                   <NavLink className={l.link} to={item.slug}>
                     {item.title}
                   </NavLink>

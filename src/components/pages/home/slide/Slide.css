@@ -1,0 +1,9 @@
+.owl-nav {
+  position: absolute;
+  bottom: 120px;
+  left: 50%;
+}
+.owl-dots {
+  position: absolute;
+  bottom: 110px;
+}
